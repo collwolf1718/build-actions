@@ -34,6 +34,7 @@ on:
         options:
           - 'aarch64'
           - 'x86_64'
+         - 'mt7620'
       CPU_SELECTION:
         description: 'CPU优选,增加编译速度'
         required: true
@@ -44,6 +45,7 @@ on:
           - '8370C'
           - '8272CL'
           - '8171M'
+          - '7620a'
       INFORMATION_NOTICE:
         description: 'Telegram或pushplus信息通知'
         required: true
